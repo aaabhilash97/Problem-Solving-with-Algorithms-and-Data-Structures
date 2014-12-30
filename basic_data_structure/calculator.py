@@ -3,7 +3,7 @@ import sys
 x=list()
 q=[]
 try:
-	q=(infix_to_postfix("( 1 + 2 ) + ( 12 * 3 ) * 6")).split()
+	q=(infix_to_postfix("( 1 + 3 )")).split()
 except:
 	print "improper parentheses"
 	exit()

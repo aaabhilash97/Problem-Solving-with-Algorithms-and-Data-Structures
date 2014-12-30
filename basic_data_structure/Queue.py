@@ -9,3 +9,8 @@ class Queue:
 		return self.items.pop()
 	def size(self):
 		return len(self.items)
+	def remove(self,item):
+		try:
+			self.items.remove(item)
+		except:
+			None
